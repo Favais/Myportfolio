@@ -1,4 +1,4 @@
-import HtmlImg from './htmlb.jpg';
+import HtmlImg from './Htmlb.jpg';
 import CssImg from './Css.png';
 import JavascriptImg from './Javascript.png';
 import ReactImg from './React.png';
