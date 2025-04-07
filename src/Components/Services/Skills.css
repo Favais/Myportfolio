@@ -1,0 +1,125 @@
+.skills {
+    padding: 60px 80px;
+}
+
+.skills-section {
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-heading h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 16px;
+}
+
+.skills-heading h1 span:nth-of-type(1) {
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.skills-heading h1 span:nth-of-type(2) {
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.skills-container {
+    padding: 20px 0px;
+}
+
+.skill-row-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.skill {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+    box-shadow: 10px 10px 10px rgba(200, 101, 97, 0.3);
+}
+
+.skill-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.skill-content img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+}
+
+
+.skill-content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.09);
+}
+
+.skill:hover .skill-content img {
+    background-color: white;
+    padding: 10px 10px;
+}
+
+@media(max-width:500px) {
+    .skills {
+        padding: 40px 16px;
+    }
+
+    .skills-section {
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .skills-heading {
+        gap: 16px;
+        padding: 20px 0px;
+    }
+
+    .skills-heading h1 {
+        font-size: 28px;
+    }
+
+    .skills-container {
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .skill-row-one {
+        padding: 0px;
+        gap: 20px;
+    }
+
+    .skill {
+        padding: 10px 10px;
+        gap: 30px;
+    }
+
+    .skill-content p {
+        font-size: 20px;
+    }
+}

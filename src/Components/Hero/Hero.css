@@ -1,0 +1,169 @@
+.hero {
+    padding: 60px 80px;
+}
+
+.hero-top {
+    display: flex;
+    padding: 0px 32px;
+}
+
+.hero-title {
+    padding: 0px 20px;
+}
+
+.hero-top-intro {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 20px 0px;
+}
+
+.hero-top-intro-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-top-intro-title {
+    font-size: 48px;
+    /* line-height: 56px; */
+    letter-spacing: -2%;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-top-intro-title span {
+    display: flex;
+    gap: 16px;
+}
+
+.lineoneleft {
+    display: flex;
+    gap: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.linetworight {
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.hero-top-intro-cont p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #71717a;
+}
+
+.hero-bottom {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    padding: 4px 0px;
+    gap: 32px;
+}
+
+.hero-bottom a:hover {
+    background-color: black;
+    border-radius: 4px;
+    padding: 10px 10px;
+    transform: scale(1.08);
+}
+
+.hero-bottom a {
+    border-radius: 4px;
+    border: 2px solid black;
+    transition: 0.4s;
+    padding: 10px 10px;
+}
+
+.hero-bottom a:hover img {
+    background-color: white;
+}
+
+
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.bannerimg {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@media(max-width:700px) {
+    .hero {
+        padding: 40px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-top {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 48px;
+        padding: 0px;
+    }
+
+    .bannerimg {
+        position: relative;
+        right: 50px;
+        padding: 20px 0px;
+        max-width: 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-top-intro-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .hero-top-intro-title {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 28px;
+    }
+
+    .full {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-bottom {
+        display: flex;
+        padding: 4px 0px;
+        gap: 24px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .hero-bottom a {
+        padding: 12px 12px;
+        display: flex;
+        gap: 8px;
+    }
+
+    .hero-bottom a img {
+        padding: 5px;
+    }
+
+}
