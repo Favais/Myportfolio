@@ -6,7 +6,7 @@ import TailwindImg from './Tailwind.png';
 import FigmaImg from './Figma.png';
 import BootstrapImg from '../assets/Bootstrap.png';
 import MongoDBImg from '../assets/Mongodb.png';
-import GitImg from './Git.png';
+import GitImg from './git.png';
 import GithubImg from './Github.png';
 
 const Skillsdata = [
