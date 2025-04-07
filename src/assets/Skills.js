@@ -3,7 +3,7 @@ import CssImg from './Css.png';
 import JavascriptImg from './Javascript.png';
 import ReactImg from './React.png';
 import TailwindImg from './Tailwind.png';
-import FigmaImg from './figma.png';
+import FigmaImg from './Figma.png';
 import BootstrapImg from '../assets/Bootstrap.png';
 import MongoDBImg from '../assets/Mongodb.png';
 import GitImg from './Git.png';
