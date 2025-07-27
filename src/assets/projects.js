@@ -1,5 +1,5 @@
 import Project1 from './Project.png'
-import projects2 from './Project2.png'
+import projects2 from './project2.png'
 import Readmore from './Readmore.png'
 import project4 from './project4.png'
 const Projects_data = [
