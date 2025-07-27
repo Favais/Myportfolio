@@ -1,20 +1,20 @@
 import Project1 from './Project.png'
-import projects2 from './projects2.avif'
+import projects2 from './Project2.png'
 import Readmore from './Readmore.png'
 import project4 from './project4.png'
 const Projects_data = [
     {
         no: '01',
         p_img: Project1,
-        p_title: "So Estate - Real Rstate Listing Platform",
-        p_disc: "As the devoloper on this project my task was to make sure the site apealing, responsive to different devices and fast",
+        p_title: "Finance Management App",
+        p_disc: "A Finance Management App helps users track income, expenses, budgets, and savings in one place. It offers features like real-time expense categorization, financial goal setting, bill reminders, and personalized insights to improve money management and achieve financial stability.",
         p_more: Readmore
     },
     {
         no: '02',
         p_img: projects2,
-        p_title: "Beta - Ecommerce Platform",
-        p_disc: "This projeect involved me building the front-end and backend, getting the E-Commerce interactive and dynamic",
+        p_title: "Hospilat management and appointment booking platform",
+        p_disc: "A Hospital Management and Appointment Booking system streamlines healthcare operations by managing patient records, doctor schedules, billing, and inventory. It enables patients to easily book, reschedule, or cancel appointments online, while providing doctors with real-time updates and access to medical histories. The system improves efficiency, reduces wait times, and enhances overall patient care.",
         p_more: Readmore
     },
     {

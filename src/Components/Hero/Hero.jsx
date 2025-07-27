@@ -1,10 +1,9 @@
 import React from 'react'
 import './Hero.css'
 import Banner from '../../assets/Banner.png'
-import Socialicon from '../../assets/Socialicon.png'
-import Redditicon from '../../assets/redditicon.png'
-import Twittericon from '../../assets/twitter.png'
-import Discordicon from '../../assets/discord.png'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
@@ -20,13 +19,12 @@ const Hero = () => {
                         <p>I'm Aisosa Favour, I’m a self-taught and passionate full-stack developer with a focus on building robust, user-friendly web applications using React.js and Node.js. I care deeply about crafting clean, readable, and high-performance code, and I love bringing both the technical and visual sides of digital products to life.</p>
                     </div>
                 </div>
-                <img className='bannerimg' src={Banner} alt="" />
+                <img className='bannerimg' src={Banner} alt="hero image" />
             </div>
             <div className="hero-bottom">
-                <a href="https://www.instagram.com/ih_sosa"><img src={Socialicon} alt="" /></a>
-                <a href="https://www.linkedin.com/in/aisosa-o-59b94a168"><img src={Redditicon} alt="" /></a>
-                <a href=""><img src={Twittericon} alt="" /></a>
-                <a href=""><img src={Discordicon} alt="" /></a>
+                <Link><FaLinkedin size={30} /></Link>
+                <Link><FaSquareXTwitter size={30} /></Link>
+                <Link><FaGithub size={30} /></Link>
             </div>
 
         </div>

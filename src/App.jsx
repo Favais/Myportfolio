@@ -7,20 +7,23 @@ import Projects from './Components/Projects/Projects'
 import Testimonial from './Components/Testimonial/Testimonial'
 import Contactme from './Components/Contactme/Contactme'
 import Footer from './Components/Footer/Footer'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
 
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Experience />
-      <Aboutme />
-      <Projects />
-      <Testimonial />
-      <Contactme />
-      <Footer />
+      <BrowserRouter>
+        <Navbar />
+        <Hero />
+        <Skills />
+        <Experience />
+        <Aboutme />
+        <Projects />
+        <Testimonial />
+        <Contactme />
+        <Footer />
+      </BrowserRouter>
     </div>
   )
 }

@@ -18,6 +18,10 @@
     padding: 20px 0px;
 }
 
+.hero-top img {
+    width: 50%;
+}
+
 .hero-top-intro-cont {
     display: flex;
     flex-direction: column;
@@ -62,7 +66,7 @@
 
 .hero-bottom {
     position: relative;
-    bottom: 30px;
+    bottom: 0px;
     left: 30px;
     display: flex;
     padding: 4px 0px;
@@ -70,22 +74,23 @@
 }
 
 .hero-bottom a:hover {
-    background-color: black;
-    border-radius: 4px;
+    /* background-color: black; */
     padding: 10px 10px;
-    transform: scale(1.08);
+    transform: scale(1.18);
 }
 
 .hero-bottom a {
+    align-self: center;
     border-radius: 4px;
-    border: 2px solid black;
+    border: 1px solid black;
     transition: 0.4s;
     padding: 10px 10px;
+    color: inherit;
 }
 
-.hero-bottom a:hover img {
+/* .hero-bottom a:hover img {
     background-color: white;
-}
+} */
 
 
 
