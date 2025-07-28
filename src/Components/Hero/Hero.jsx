@@ -22,12 +22,12 @@ const Hero = () => {
                 <img className='bannerimg' src={Banner} alt="hero image" />
             </div>
             <div className="hero-bottom">
-                <Link><FaLinkedin size={30} /></Link>
-                <Link><FaSquareXTwitter size={30} /></Link>
-                <Link><FaGithub size={30} /></Link>
+                <Link to='https://www.linkedin.com/in/ihsosa/'><FaLinkedin size={30} /></Link>
+                <Link to='https://x.com/theogsoso'><FaSquareXTwitter size={30} /></Link>
+                <Link to='https://github.com/Favais'><FaGithub size={30} /></Link>
             </div>
 
-        </div>
+        </div >
     )
 }
 

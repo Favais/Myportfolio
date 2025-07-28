@@ -88,6 +88,12 @@
     padding: 10px 10px;
 }
 
+@media (max-width:900px) {
+    .skill-row-one {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media(max-width:500px) {
     .skills {
         padding: 40px 16px;
@@ -115,7 +121,7 @@
     .skill-row-one {
         padding: 0px;
         gap: 20px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skill {

@@ -32,11 +32,7 @@
     color: #71717a;
 }
 
-.buttons {
-    display: flex;
-    gap: 24px;
-    background-color: white;
-}
+
 
 .getintouch {
     width: 173px;
@@ -57,8 +53,17 @@
     gap: 20px;
 }
 
-button img {
-    padding: 16px 16px;
+.socials a {
+    padding: 8px 8px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    background-color: black;
+    color: white;
 }
 
 .contact-details {

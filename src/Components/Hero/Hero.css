@@ -125,13 +125,17 @@
         padding: 0px;
     }
 
+    .hero-top img {
+        min-width: 100%;
+    }
+
     .bannerimg {
         position: relative;
-        right: 50px;
-        padding: 20px 0px;
-        max-width: 100%;
-        height: 100%;
-        width: 100%;
+        /* right: 50px; */
+        /* padding: 20px 0px; */
+        /* max-width: 100%; */
+        /* height: 100%; */
+        /* width: 100%; */
     }
 
     .hero-top-intro-cont {

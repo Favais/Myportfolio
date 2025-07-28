@@ -48,6 +48,13 @@
     color: #71717A;
 }
 
+@media (max-width:900px) {
+    .aboutme-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media(max-width: 500px) {
     .aboutme {
         padding: 40px 16px;

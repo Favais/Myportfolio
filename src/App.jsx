@@ -1,6 +1,6 @@
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import Skills from './Components/Services/Skills'
+import Skills from './Components/Skills/Skills'
 import Experience from './Components/Experience/Experience'
 import Aboutme from './Components/Aboutme/Aboutme'
 import Projects from './Components/Projects/Projects'

@@ -5,11 +5,12 @@ import logo from '../../assets/logo.png'
 import download from '../../assets/download.png'
 import menu_open from '../../assets/hamburger.png'
 import menu_close from '../../assets/closeicon.png'
-import aboutme_icon from '../../assets/ab.png'
-import skills_icon from '../../assets/skillsicon.png'
-import projects_icon from '../../assets/projecticon.png'
-import testimonial_icon from '../../assets/testimonialicon.png'
-import contact_icon from '../../assets/contacticon.png'
+import { IoIosContact, IoIosCall } from "react-icons/io";
+import { GiSkills } from "react-icons/gi";
+import { GoProjectSymlink } from "react-icons/go";
+import { BsChatRightQuoteFill } from "react-icons/bs";
+
+
 
 const Navbar = () => {
     const menuRef = useRef()
@@ -31,11 +32,11 @@ const Navbar = () => {
                     </div>
                     <ul ref={menuRef} className='nav-menu'>
                         <img onClick={closeMenu} src={menu_close} className='nav-mob-close' alt="" />
-                        <li><AnchorLink className='anchor-link' offset={50} href='#aboutme'><img src={aboutme_icon} alt="" />About Me</AnchorLink></li>
-                        <li><AnchorLink className='anchor-link' href='#skills'><img src={skills_icon} alt="" />Skills</AnchorLink></li>
-                        <li><AnchorLink className='anchor-link' href='#projects'><img src={projects_icon} alt="" />Projects</AnchorLink></li>
-                        <li><AnchorLink className='anchor-link' href='#testimonial'><img src={testimonial_icon} alt="" />Testimonial</AnchorLink></li>
-                        <li> <AnchorLink className='anchor-link' href='#contactme'><img src={contact_icon} alt="" />Contact Me</AnchorLink> </li>
+                        <li><AnchorLink className='anchor-link' offset={50} href='#aboutme'><IoIosContact />About Me</AnchorLink></li>
+                        <li><AnchorLink className='anchor-link' href='#skills'><GiSkills />Skills</AnchorLink></li>
+                        <li><AnchorLink className='anchor-link' href='#projects'><GoProjectSymlink />Projects</AnchorLink></li>
+                        <li><AnchorLink className='anchor-link' href='#testimonial'><BsChatRightQuoteFill />Testimonial</AnchorLink></li>
+                        <li> <AnchorLink className='anchor-link' href='#contactme'><IoIosCall />Contact Me</AnchorLink> </li>
                     </ul>
                     <div className='nav-resume'><p>Resume</p><img src={download} alt="" /></div>
                 </div>

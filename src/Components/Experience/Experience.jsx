@@ -15,7 +15,7 @@ const Experience = () => {
                             <div key={i} className="experience">
                                 <div className='exp-title'>
                                     <div className='title-right'>
-                                        <img src={exp.e_logo} alt="" />
+                                        <exp.e_logo size={30} />
                                         <h5>{exp.e_title}</h5></div>
                                     <span className='exp-date'>{exp.e_start_date}-{exp.e_end_date}</span>
                                 </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contactme.css'
-import Socialicon from '../../assets/Socialicon.png'
-import Redditicon from '../../assets/redditicon.png'
-import Twittericon from '../../assets/twitter.png'
-import Discordicon from '../../assets/discord.png'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+
 
 const Contactme = () => {
 
@@ -41,10 +41,9 @@ const Contactme = () => {
                         <button type='submit' className='getintouch'>Get In Touch</button>
                     </form>
                     <div className="socials">
-                        <button><img src={Socialicon} alt="" /></button>
-                        <button><img src={Redditicon} alt="" /></button>
-                        <button><img src={Twittericon} alt="" /></button>
-                        <button><img src={Discordicon} alt="" /></button>
+                        <Link to='https://www.linkedin.com/in/ihsosa/'><FaLinkedin size={30} /></Link>
+                        <Link to='https://x.com/theogsoso'><FaSquareXTwitter size={30} /></Link>
+                        <Link to='https://github.com/Favais'><FaGithub size={30} /></Link>
                     </div>
                 </div>
                 <div className="contact-details">
