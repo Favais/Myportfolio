@@ -8,6 +8,7 @@ import Testimonial from './Components/Testimonial/Testimonial'
 import Contactme from './Components/Contactme/Contactme'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function App() {
   const location = useLocation();
