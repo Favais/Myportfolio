@@ -9,6 +9,7 @@ import Contactme from './Components/Contactme/Contactme'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { initGA, logPageView } from './Components/analytics'
 
 function App() {
   const location = useLocation();
