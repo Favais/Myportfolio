@@ -22,17 +22,15 @@ function App() {
   }, [location]);
   return (
     <div>
-      <BrowserRouter>
-        <Navbar />
-        <Hero />
-        <Skills />
-        <Experience />
-        <Aboutme />
-        <Projects />
-        <Testimonial />
-        <Contactme />
-        <Footer />
-      </BrowserRouter>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <Experience />
+      <Aboutme />
+      <Projects />
+      <Testimonial />
+      <Contactme />
+      <Footer />
     </div>
   )
 }
