@@ -7,10 +7,18 @@ import Projects from './Components/Projects/Projects'
 import Testimonial from './Components/Testimonial/Testimonial'
 import Contactme from './Components/Contactme/Contactme'
 import Footer from './Components/Footer/Footer'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, useLocation } from 'react-router-dom'
 
 function App() {
+  const location = useLocation();
 
+  useEffect(() => {
+    initGA();
+  }, []);
+
+  useEffect(() => {
+    logPageView(location.pathname + location.search);
+  }, [location]);
   return (
     <div>
       <BrowserRouter>
